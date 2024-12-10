@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
             val email = binding.emailET.text.toString()
             if(nameFun(name) && lastnameFun(lastname) && emailFun(email)){
                 listOfUsers.add(Users(name,lastname,email))
-                Toast.makeText(this,"Added succesfully!",Toast.LENGTH_LONG).show()
+                Toast.makeText(this,"Added  succesfully!",Toast.LENGTH_LONG).show()
             }
 
         }
